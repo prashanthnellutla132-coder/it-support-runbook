@@ -57,3 +57,12 @@ When a user reports *"My computer is freezing / Application is crashing"*
 * **OS Administration:** Command-line diagnostics, Event Viewer analysis, and system file repair (`sfc`, `DISM`).
 * **Network Troubleshooting:** DNS flushing, DHCP renewal, and gateway verification.
 * **Identity Management:** User lockout resolution and credential resets.
+
+---
+
+## 📸 Hands-On Lab Proof: Tier 1 Password Reset & Account Recovery
+* **Scenario:** A corporate user (`support.test`) contacted the help desk locked out of their local workstation after multiple incorrect login attempts.
+* **Action Taken:** Accessed Windows Local Users and Groups (`lusrmgr.msc`), bypassed stale lockout attributes by performing an administrative credential reset, and provided temporary access.
+* **Proof of Work:**
+  ![Password Reset Proof](Screenshot%20(1077).png)
+* 
