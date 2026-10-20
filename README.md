@@ -14,5 +14,11 @@ passwordreset.png
 * **Proof of Work:**
   Reliability Monitor.png
 
-  
+  ---
+
+## 📸 Hands-On Lab Proof: Network DNS Cache Flushing (`ipconfig /flushdns`)
+* **Scenario:** A user reported being unable to access an internal company web portal due to stale network routing records.
+* **Action Taken:** Opened an elevated command prompt, executed `ipconfig /flushdns` to clear out corrupted DNS resolver records, and re-established clean name resolution.
+* **Proof of Work:**
+  ipconfig-flushdns.png
 * 
